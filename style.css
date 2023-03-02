@@ -1,0 +1,69 @@
+body {
+    background: rgb(252,225,129);
+    background: linear-gradient(180deg, rgba(252,225,129,1) 0%, rgba(254,249,199,1) 100%);
+}
+
+nav {
+    background-color: #9FEDD7;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link, .navbar-brand {
+    border-radius: 15px;
+}
+
+.navbar a:hover {
+  background: #FEF9C7;
+  transition: 400ms;
+}
+
+.active {
+    background-color: #EDEAE5;
+}
+
+h1, h2 {
+    color: #026670;
+}
+
+.bord {
+    border-style: solid;
+    border-color: #EDEAE5;
+    border-width: 5px;
+    border-radius: 15px;
+}
+
+.container-fluid {
+    font-size: 20px;
+}
+
+img {
+    width: 332px;
+    height: 187px;
+    transition: 400ms;
+}
+
+img:hover {
+    margin: auto;
+    width: 415;
+    height: 234;
+    transition: 400ms;
+}
+
+.credit {
+    font-size: 10px;
+}
+
+.btn {
+    background-color: #026670;
+    border-color: #026670;
+}
+
+.btn:hover {
+    background-color: #9FEED7;
+    border-color: #9FEED7;
+}
